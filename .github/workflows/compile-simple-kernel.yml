@@ -22,7 +22,7 @@ on:
       kernel_version:
         description: "Select kernel version"
         required: false
-        default: "6.18.simple.y"
+        default: "6.18.y"
         type: choice
         options:
           - all
@@ -32,7 +32,6 @@ on:
           - 6.6.y
           - 6.12.y
           - 6.18.y
-          - 6.18.simple.y
       kernel_branch:
         description: "Set the kernel branch"
         required: false
